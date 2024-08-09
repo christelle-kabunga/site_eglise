@@ -38,6 +38,67 @@
         .programmes p{
             font-size: 2rem;
         }
+        /* footer debut */
+        footer {
+            background-color: rgb(163, 148, 148);
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        footer .info, .link, .requet {
+            padding: 0 4%;
+        }
+        .info ul {
+            list-style: none;
+            color: #ffffff;
+        }
+        .info h2 {
+            font-weight: bold;
+            margin-top: 2rem;
+            margin-bottom: 10px;
+            color: rgb(252, 173, 27);
+        }
+        .link h2 {
+            margin-bottom: 10px;
+            color: rgb(252, 173, 27);   
+        }
+        .link a {
+            color: #ffffff;
+        }
+        footer .requet h2 {
+            margin-bottom: 20px;
+            color: rgb(252, 173, 27);
+        }
+        .requet form {
+            width: 600px;
+            display: flex;
+            
+        }
+        .requet form input {
+            width:90%;
+            height: 2.5rem;
+            border: 0;
+            outline: none;
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px
+        }
+        .requet input::placeholder{
+            font-size: 1rem;
+            margin-left: 10px;
+        }
+        .requet form button {
+            height: 40px;
+            width: 90px;
+            border: 0;
+            outline: none;
+            background-color: slategray;
+            color: rgb(252, 165, 5);
+            font-weight: bold;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
     </style>
 </head>
 <body>
@@ -83,7 +144,34 @@
 
 
 </div>
-
+<!-- footer debut -->
+<footer>
+    <div class="info">
+        <h2>Info</h2>
+        <ul>
+            <li> Butembo,RDC,Londo</li>
+            <li>AmpleButembo@gmail.com</li>
+            <li>+243946373368</li>
+        </ul>
+    </div>
+    <div class="link">
+        <h2>contact</h2>
+        <div>
+            <a href="#">facebook</a>
+            <a href="http://wa.me/+243975738343">whatsapp</a>
+            <a href="#">messager</a>
+            <a href="tél:+243975738343">call us</a>
+        </div>
+    </div>
+    <div class="requet">
+        <h2>Envoyer-nous un message</h2>
+        <form>  
+          <input type="text" placeholder="Entrez votre Email">
+          <button>Envoyer</button>  
+        </form>
+    </div>
+</footer>
+<!-- footer fin -->
 
 
 </body>
